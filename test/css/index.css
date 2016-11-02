@@ -1,0 +1,9 @@
+.wrapper {
+    text-align: center;
+}
+
+.btn-floating {
+
+    position: absolute;
+    top: 50%;
+}
