@@ -1,9 +1,33 @@
 .wrapper {
     text-align: center;
+    margin: 20px;
 }
 
 .btn-floating {
-
     position: absolute;
     top: 50%;
+}
+
+
+.card-action {
+  text-align: center;
+  font-size: 50%;
+
+}
+
+#color-change, #archive, #delete  {
+  width:27%;
+  height: 18%;
+}
+
+
+
+#textarea {
+  color: white;
+  font-size: 15px;
+  font-family: Roboto;
+}
+
+.brand-logo {
+  margin-left: 5%;
 }

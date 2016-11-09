@@ -28,99 +28,41 @@
 
 <!--Folder tabs-->
 
-
+<div id='wrapper'>
+</div>
 
 
     <!--add button(click)-->
     <div class='wrapper'>
      <a class="btn-floating btn-large waves-effect waves-light teal"><i class="material-icons">add</i></a>
 </div>
-    <!--note cards-->
+
+<div class="row">
+</div>
+<!--
 
     <div class="row">
       <div class="col s12 m4">
-        <div class="card-panel light blue">
-          <span class="white-text">I am a very simple card. I am good at containing small bits of information.
-          I am convenient because I require little markup to use effectively. I am similar to what is called a panel in other frameworks.
-          </span>
+        <div class="card-panel teal">
+           <textarea id="textarea" class="materialize-textarea"></textarea>
+          <div class="card-action">
+              <a class="waves-effect waves-light btn" id="color-change">alert</a>
+              <a class="waves-effect waves-light btn" id="archive">archive</a>
+              <a class="waves-effect waves-light btn" id="delete">delete</a>
+            </div>
         </div>
       </div>
-
-
-      <div class="col s12 m4">
-        <div class="card-panel light blue">
-          <span class="white-text">I am a very simple card. I am good at containing small bits of information.
-          I am convenient because I require little markup to use effectively. I am similar to what is called a panel in other frameworks.
-          </span>
-        </div>
-      </div>
-
-
-      <div class="col s12 m4">
-        <div class="card-panel light blue">
-          <span class="white-text">I am a very simple card. I am good at containing small bits of information.
-          I am convenient because I require little markup to use effectively. I am similar to what is called a panel in other frameworks.
-          </span>
-        </div>
-      </div>
-
-      <div class="col s12 m4">
-        <div class="card-panel lime">
-          <span class="white-text">I am a very simple card. I am good at containing small bits of information.
-          I am convenient because I require little markup to use effectively. I am similar to what is called a panel in other frameworks.
-          </span>
-        </div>
-      </div>
-
-      <div class="col s12 m4">
-        <div class="card-panel lime">
-          <span class="white-text">I am a very simple card. I am good at containing small bits of information.
-          I am convenient because I require little markup to use effectively. I am similar to what is called a panel in other frameworks.
-          </span>
-        </div>
-      </div>
-
-      <div class="col s12 m4">
-        <div class="card-panel lime">
-          <span class="white-text">I am a very simple card. I am good at containing small bits of information.
-          I am convenient because I require little markup to use effectively. I am similar to what is called a panel in other frameworks.
-          </span>
-        </div>
-      </div>
-
-      <div class="col s12 m4">
-        <div class="card-panel orange">
-          <span class="white-text">I am a very simple card. I am good at containing small bits of information.
-          I am convenient because I require little markup to use effectively. I am similar to what is called a panel in other frameworks.
-          </span>
-        </div>
-      </div>
-
-      <div class="col s12 m4">
-        <div class="card-panel orange">
-          <span class="white-text">I am a very simple card. I am good at containing small bits of information.
-          I am convenient because I require little markup to use effectively. I am similar to what is called a panel in other frameworks.
-          </span>
-        </div>
-      </div>
-
-      <div class="col s12 m4">
-        <div class="card-panel orange">
-          <span class="white-text">I am a very simple card. I am good at containing small bits of information.
-          I am convenient because I require little markup to use effectively. I am similar to what is called a panel in other frameworks.
-          </span>
-        </div>
-      </div>
-
-
-
-
     </div>
+//-->
+ <!--color change button(click)-->
+
+     <a class="waves-effect waves-light btn" id="color-change">color change</a>
+
 
       <!--footer-->
       <footer class="page-footer teal lighten-2">
                <div class="container">
-                 <div class="row">
+                 <div class="footer_row">
                    <div class="col l6 s12">
                      <h5 class="white-text">Smart Notes</h5>
                      <p class="grey-text text-lighten-4">WWW application project</p>
@@ -146,5 +88,6 @@
      <!--Import jQuery before materialize.js-->
      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
      <script type="text/javascript" src="js/materialize.min.js"></script>
+     <script type="text/javascript" src="js/text.js"></script>
    </body>
  </html>
