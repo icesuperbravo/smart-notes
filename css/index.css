@@ -1,3 +1,15 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
 .wrapper {
     text-align: center;
     margin: 20px;
@@ -12,18 +24,25 @@
 .card-action {
   text-align: center;
   font-size: 50%;
-
 }
 
-#color-change, #archive, #delete  {
-  width:27%;
-  height: 18%;
+#color-change, #archive, #delete {
+  text-align: center;
+  width: 95px;
+  height:35px;
+  margin: 2px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
-
+#add-folder {
+  font-size: 8px;
+  width: 200px;
+  height:40px;
+}
 
 #textarea {
-  color: white;
+  color: #eee;
   font-size: 15px;
   font-family: Roboto;
 }

@@ -21,13 +21,12 @@ $(document).ready(function() {
 $('.btn-floating').click(function () {
 
   $('.row')
-  .append('<div class="col s12 m4"><div class="card-panel teal"><textarea id="textarea" class="materialize-textarea"></textarea><div class="card-action"><a class="waves-effect waves-light btn" id="color-change">alert</a><a class="waves-effect waves-light btn" id="archive">archive</a><a class="waves-effect waves-light btn" id="delete">delete</a></div></div></div>')
+  .append('<div class="col s12 m4"><div class="card-panel"><textarea id="textarea" class="materialize-textarea"></textarea><div class="card-action"><a class="waves-effect waves-light btn" id="color-change">alert</a><a class="waves-effect waves-light btn" id="archive">archive</a></div></div></div>')
 
 })
 
-/*
 // click color change(alert) button
 $('#color-change').click(function () {
-  $('.card-panel').css('color', 'yellow');
-})
-*/
+  //$(this).toggleClass('changeOrange');
+  $(this).css('background-color', '#aaa');
+});
