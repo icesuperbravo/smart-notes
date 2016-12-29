@@ -33,8 +33,8 @@
 // 1. Colors
 // ==========================================================================
 
-$primary-color: color("materialize-red", "lighten-2") !default;
-//$primary-color: color("cyan", "base") !default;
+//$primary-color: color("materialize-red", "lighten-2") !default;
+$primary-color: color("cyan", "base") !default;
 $primary-color-light: lighten($primary-color, 15%) !default;
 $primary-color-dark: darken($primary-color, 15%) !default;
 
@@ -90,11 +90,11 @@ $button-floating-radius: 50% !default;
 // 4. Cards
 // ==========================================================================
 
-$card-padding: 20px !default;
-$card-bg-color: $primary-color-light !default;
+//$card-padding: 20px !default;
+//$card-bg-color: $primary-color-light !default;
 //$card-bg-color: color("blue-grey", "darken-1") !default;
-$card-link-color: color("orange", "accent-2") !default;
-$card-link-color-light: lighten($card-link-color, 20%) !default;
+//$card-link-color: color("orange", "accent-2") !default;
+//$card-link-color-light: lighten($card-link-color, 20%) !default;
 
 
 // 5. Collapsible

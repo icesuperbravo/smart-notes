@@ -14,19 +14,12 @@ $(document).ready(function() {
 });
 */
 $(document).ready(function() {
-    $('select').material_select();
+  $('select').material_select();
 });
 
 // add cards
 $('.btn-floating').click(function () {
-
   $('.row')
-  .append('<div class="col s12 m4"><div class="card-panel"><textarea id="textarea" class="materialize-textarea"></textarea><div class="card-action"><a class="waves-effect waves-light btn" id="color-change">alert</a><a class="waves-effect waves-light btn" id="archive">archive</a></div></div></div>')
+  .append('<section class="wrapper cherry"><div class="component__list-item card"><textarea id="textarea" class="materialize-textarea component__heading"></textarea><div class="card-action component__list"><a class="waves-effect waves-light btn component__list-item" id="archive">archive</a></div></div></section>')
 
 })
-
-// click color change(alert) button
-$('#color-change').click(function () {
-  //$(this).toggleClass('changeOrange');
-  $(this).css('background-color', '#aaa');
-});
